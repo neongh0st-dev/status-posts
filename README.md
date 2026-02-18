@@ -1,8 +1,6 @@
 # status-posts
-Status post on my Mastodon for websites
-
-If you're looking for status updates, I post them here:
-  [https://mastodon.social/@ellias-vermeer](https://mastodon.social/@ellias_vermeer)
+Status post scripts for a variety of Social Media platforms.
+Regularly updated with new platforms.
 
 ## Tools
 I publish release pings, currently for:
@@ -10,3 +8,9 @@ I publish release pings, currently for:
 - X
 - Instagram
 - Mastodon (just in case I switch)
+
+TBM:
+- Snapchat
+- WhatsApp
+- Telegram
+- Facebook

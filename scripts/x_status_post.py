@@ -10,6 +10,7 @@ X_BEARER = os.getenv("X_BEARER", "")
 STATUS = os.getenv("STATUS", "deploy done")
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
 
+# visit my mastodon for updates https://mastodon.social/@ellias_vermeer
 def post_status():
     if not X_BEARER:
         print("no X_BEARER, abort")

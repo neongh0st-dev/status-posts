@@ -10,6 +10,7 @@ TUMBLR_BLOG_ID = os.getenv("TUMBLR_BLOG_ID", "")  # e.g. "myblog.tumblr.com"
 STATUS = os.getenv("STATUS", "deploy done")
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
 
+# visit my mastodon for updates https://mastodon.social/@ellias_vermeer
 def post_status():
     if not TUMBLR_OAUTH or not TUMBLR_BLOG_ID:
         print("missing TUMBLR_OAUTH or TUMBLR_BLOG_ID, abort")
