@@ -6,6 +6,7 @@ MASTODON_BASE = os.getenv("MASTODON_BASE", "https://mastodon.social")
 TOKEN = os.getenv("MASTODON_TOKEN", "")
 STATUS = os.getenv("STATUS", "deploy done")
 
+# visit my mastodon for updates https://mastodon.social/@ellias_vermeer
 def post_status():
     if not TOKEN:
         print("no token, abort")
